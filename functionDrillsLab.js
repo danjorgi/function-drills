@@ -124,8 +124,8 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// console.log('arrow')
-console.log('declaration')
+console.log('arrow')
+// console.log('declaration')
 // console.log('expression')
 
 /*
@@ -135,7 +135,9 @@ console.log('declaration')
   Brownie points if you use a template string
 */
 
-
+const exclaimThree = str => `${str.toUpperCase()}!!!`;
+exclaimThree('i did it');
+console.log(exclaimThree('i did it'));
 
 ////////////////// PROBLEM 9 ////////////////////
 
