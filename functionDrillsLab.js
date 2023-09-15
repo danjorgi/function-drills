@@ -86,7 +86,14 @@ console.log(compareNums(2,2));
   Create a variable outside the function called 'sum' and set it equal to add invoked (called), passing in 2 arguments.
 */
 
-//CODE HERE
+const add = (x,y) => {
+  const num1 = Number(x);
+  const num2 = Number(y);
+  return num1 + num2
+}
+
+sum = add('10',7);
+console.log(sum);
 
 
 ////////////////// PROBLEM 7 ////////////////////
