@@ -331,7 +331,13 @@ console.log(emailCheck(userEmail));
   Create a variable called `totalFrogs` and set it equal to your function invoked, passing in the amount of gold you are willing to spend.
 */
 
-//CODE HERE
+const buyFrogs = (gold) => {
+  let frogPrice = 3;
+  let frogsPurchased = (gold / frogPrice)
+  return frogsPurchased
+}
+const totalFrogs = buyFrogs(30);
+console.log(totalFrogs)
 
 
 ////////////////// PROBLEM 20 ////////////////////
