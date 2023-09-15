@@ -224,7 +224,9 @@ printAllNames(namesArr);
   Outside the function, create a variable called `oddChecker` and set it equal to your function invoked, making sure to pass in an argument.
 */
 
-//CODE HERE
+const thatsOdd = (num) => (num % 2 === 0 ? "That's not odd!" : "That is odd indeed!");
+let oddChecker = thatsOdd(5);
+console.log(oddChecker);
 
 
 ////////////////// PROBLEM 14 ////////////////////
