@@ -92,7 +92,7 @@ const add = (x,y) => {
   return num1 + num2
 }
 
-sum = add('10',7);
+sum = add(10,7);
 console.log(sum);
 
 
@@ -109,7 +109,7 @@ const exclaim = function(str) {
 
 // console.log('arrow')
 // console.log('declaration')
-// console.log('expression')
+console.log('expression')
 
 
 
