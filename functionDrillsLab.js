@@ -23,9 +23,7 @@ helloWorld();
     Write an arrow function called 'jsNinja' that returns the string: 'I am a JavaScript ninja!'
 */
 
-const jsNinja = () => {
-  return 'I am a JavaScript ninja!'
-}
+const jsNinja = () => 'I am a JavaScript ninja!'
 
 
 ////////////////// PROBLEM 3 ////////////////////
@@ -35,8 +33,10 @@ const jsNinja = () => {
   Call the function, passing in an argument.
 */
 
-//CODE HERE
-
+let printName = (name) => {
+  console.log(name)
+}
+printName('Dan');
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
